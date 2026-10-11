@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="赵鹏举，山东大学网络空间安全学院学术型硕士研究生。研究方向为分组密码组件的高效实现。">
+  <meta name="theme-color" content="#ffffff">
+  <title>赵鹏举 · Pengju Zhao</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-en="Skip to content">跳转到正文</a>
+  <div class="page">
+    <header class="profile">
+      <img class="portrait" src="assets/portrait.png" alt="赵鹏举的个人照片" data-en-alt="Portrait of Pengju Zhao" width="874" height="1200">
+      <div class="identity">
+        <h1 data-en="Pengju Zhao">赵鹏举</h1>
+        <p class="other-name" data-en="赵鹏举">Pengju Zhao</p>
+        <p data-en="Research-oriented master's student">学术型硕士研究生</p>
+        <p data-en="School of Cyber Science and Technology, Shandong University">山东大学网络空间安全学院</p>
+        <p class="contact"><span data-en="Email: ">邮箱：</span><a href="mailto:pengjuzhao@mail.sdu.edu.cn">pengjuzhao@mail.sdu.edu.cn</a></p>
+        <a href="https://github.com/pengjuzhao-sdu" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <button id="language-toggle" type="button" aria-label="Switch to English" hidden>English</button>
+    </header>
+    <main id="main">
+      <section aria-labelledby="about-title">
+        <h2 id="about-title" data-en="About">个人简介</h2>
+        <p><span data-en="I am currently a research-oriented master's student at the School of Cyber Science and Technology, Shandong University, under the supervision of Research Fellow ">现为山东大学网络空间安全学院学术型硕士研究生，师从</span><a href="https://hukaisdu.github.io/zh/" target="_blank" rel="noopener noreferrer" data-en="Kai Hu">胡凯</a><span data-en=". I am a member of the Quantum Group within Professor ">研究员，所在研究组为</span><a href="https://faculty.sdu.edu.cn/wangmeiqin/zh_CN/index.htm" target="_blank" rel="noopener noreferrer" data-en="Meiqin Wang">王美琴</a><span data-en="'s research team, and my research is primarily conducted under the guidance of Dr. ">教授团队的量子组，主要在</span><a href="https://faculty.sdu.edu.cn/liuqun12/zh_CN/index.htm" target="_blank" rel="noopener noreferrer" data-en="Qun Liu">刘群</a><span data-en=", a postdoctoral researcher. My research focuses on efficient implementations of block cipher components, particularly logic circuit optimization for S-boxes and linear layers. Considering metrics related to circuit implementation cost and performance, I use mixed-integer linear programming (MILP), algebraic decomposition, and heuristic search methods to explore low-cost, efficient implementations of cryptographic components.">博士后的指导下开展科研工作。主要研究分组密码组件的高效实现，重点关注 S-box 和线性层的逻辑电路优化。研究工作围绕电路实现成本与性能相关指标，采用MILP、代数分解、启发式搜索等方法，探索密码组件的低成本、高效率实现。</span></p>
+      </section>
+      <section aria-labelledby="education-title">
+        <h2 id="education-title" data-en="Education">教育经历</h2>
+        <div class="education-entry">
+          <p class="dates" data-en="2025–Present">2025 年至今</p>
+          <div><h3 data-en="Shandong University">山东大学</h3><p data-en="School of Cyber Science and Technology · Master's student">网络空间安全学院 · 硕士研究生</p><p data-en="Major: Cyberspace Security">网络空间安全专业</p></div>
+        </div>
+        <div class="education-entry">
+          <p class="dates" data-en="2021–2025">2021–2025 年</p>
+          <div><h3 data-en="Shandong University">山东大学</h3><p data-en="School of Cyber Science and Technology · Undergraduate studies">网络空间安全学院 · 本科</p><p data-en="Major: Cryptographic Science and Technology">密码科学与技术专业</p></div>
+        </div>
+      </section>
+      <section aria-labelledby="research-title">
+        <h2 id="research-title" data-en="Research">研究内容</h2>
+        <div class="research-item">
+          <h3 data-en="1. Low-area logic circuit optimization for block cipher linear layers">1. 分组密码线性层的低面积逻辑电路优化</h3>
+          <p><span data-en="My research focuses on low-area implementations of linear layers in block ciphers, with particular attention to circuit structures and area optimization using multi-input XOR gates. To address the limitations of traditional stepwise transformation methods in circuit optimization, I use mixed-integer linear programming (MILP) for joint optimization, together with strategies such as candidate expansion, to explore logic circuit implementations with lower area. ">主要研究分组密码算法中线性层的低面积实现，重点关注多输入 XOR 门的电路结构与面积优化。针对传统逐步替换方法在电路优化中的局限，采用混合整数线性规划（MILP）进行联合优化，并结合候选扩展等策略，探索更低面积的逻辑电路实现。</span><a href="https://github.com/pengjuzhao-sdu/Beyond-Stepwise-Transformation-MILP-Models-for-Low-Area-Implementations-of-Linear-Layers" target="_blank" rel="noopener noreferrer" data-en="See repository on GitHub">详见仓库（GitHub）</a><span data-en=".">。</span></p>
+        </div>
+        <div class="research-item">
+          <h3 data-en="2. Efficient circuit implementations of block cipher S-boxes">2. 分组密码 S-box 的高效电路实现</h3>
+          <p data-en="My research focuses on efficient circuit implementations of S-boxes in block ciphers. Considering metrics such as logic gate count, circuit depth, and overall implementation cost, I explore methods for constructing and optimizing low-complexity S-box circuits.">主要研究分组密码算法中 S-box 电路的高效实现，围绕逻辑门数量、电路深度及整体实现成本等指标，探索低复杂度的 S-box 电路构造与优化方法。</p>
+        </div>
+      </section>
+    </main>
+    <footer>© <span id="year">2026</span> <span data-en="Pengju Zhao">赵鹏举</span></footer>
+  </div>
+</body>
+</html>
